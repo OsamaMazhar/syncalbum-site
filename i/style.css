@@ -84,28 +84,29 @@ h1 {
     margin-bottom: 1.5rem;
 }
 
+/* The official store badges, unmodified (Apple and Google badge guidelines). */
+.stores {
+    align-items: center;
+}
+
 .store {
     display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 0.7rem 1.2rem;
-    border-radius: 999px;
-    background: var(--text);
-    color: var(--card);
     text-decoration: none;
-    font-weight: 600;
-    font-size: 0.9rem;
 }
 
 .store:hover {
     opacity: 0.85;
 }
 
-.store svg {
-    width: 18px;
-    height: 18px;
-    fill: currentColor;
-    flex: none;
+.store img.apple {
+    height: 48px;
+}
+
+/* Google's badge carries its own transparent margin, so it is drawn taller
+   to match the Apple badge's visible height. */
+.store img.google {
+    height: 71px;
+    margin: -11px -10px;
 }
 
 .note {
