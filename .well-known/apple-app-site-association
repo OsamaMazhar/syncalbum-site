@@ -1,0 +1,17 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "829378375Z.com.osamamazhar.SyncAlbum"
+        ],
+        "components": [
+          {
+            "/": "/i",
+            "comment": "Invite links: https://syncalbum.orbitaar.com/i#<secret> - the secret lives in the fragment and never reaches this site"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.orbitaar.syncalbum",
+      "sha256_cert_fingerprints": [
+        "1A:EE:E4:6D:7D:04:CF:A6:50:9B:27:D0:23:96:1E:8F:C0:22:AE:C3:64:2D:19:84:0C:5C:D6:DD:6A:C7:57:4C"
+      ]
+    }
+  }
+]
